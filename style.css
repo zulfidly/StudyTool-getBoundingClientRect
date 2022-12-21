@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.userMsg {
+    width: 350px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tableDomRect {
+    width: 350px;
+    height: 250px;
+    right: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tableState {
+    width: 350px;
+    height: 200px;
+    right: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 3px;
+}
+#BlueBox {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    background-color: lightskyblue;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+
+}
+
+#GreenCircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 60%;
+    user-select: none;
+    background-color: lightgreen;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.weblinks{
+    color: grey;
+    text-decoration: 1px underline dotted grey;
+}
+
+.footnote {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}

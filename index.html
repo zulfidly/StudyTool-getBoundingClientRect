@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://media1-production-mightynetworks.imgix.net/asset/36659798/Sigma_School_Logo__2_.png?ixlib=rails-4.2.0&amp">
+    <link rel="stylesheet" href="style.css">
+    <title>Positioning</title>
+    <script src="./declarations.js" defer></script>
+    <script src="./app.js" defer></script>
+
+</head>
+<body>
+    <h2>Study tool : Understanding <a class="weblinks" href="https://www.w3schools.com/jsref/met_element_getboundingclientrect.asp" target="_blank">getBoundingClientRect()</a> </h2>
+    <P class="userMsg">Drag an element towards another</P>
+    <table class="tableState">
+      <tr>
+        <th>Test Conditions</th>
+        <th>State</th>
+      </tr>
+      <tr>
+        <td>BlueBox.top > GreenCircle.bottom</td>
+        <td class="state-Condition1"></td>
+      </tr>
+      <tr>
+        <td>BlueBox.right < GreenCircle.left</td>
+        <td class="state-Condition2"></td>
+      </tr>
+      <tr>
+        <td>BlueBox.bottom < GreenCircle.top</td>
+        <td class="state-Condition3"></td>
+      </tr>
+      <tr>
+        <td>BlueBox.left > GreenCircle.right</td>
+        <td class="state-Condition4"></td>
+      </tr>
+
+    </table>
+    <table class="tableDomRect">
+        <tr>
+          <th>DOMRect Properties</th>
+          <th>BlueBox</th>
+          <th>GreenCircle</th>
+        </tr>
+        <tr>
+          <td>Top</td>
+          <td class="top-BlueBox"></td>
+          <td class="top-GreenCircle"></td>
+        </tr>
+        <tr>
+          <td>Right</td>
+          <td class="right-BlueBox"></td>
+          <td class="right-GreenCircle"></td>
+        </tr>
+        <tr>
+            <td>Bottom</td>
+            <td class="bottom-BlueBox"></td>
+            <td class="bottom-GreenCircle"></td>
+        </tr>
+          <tr>
+            <td>Left</td>
+            <td class="left-BlueBox"></td>
+            <td class="left-GreenCircle"></td>
+          </tr>
+          <tr>
+            <td>x</td>
+            <td class="x-BlueBox"></td>
+            <td class="x-GreenCircle"></td>
+          </tr>
+          <tr>
+            <td>y</td>
+            <td class="y-BlueBox"></td>
+            <td class="y-GreenCircle"></td>
+          </tr>
+          <tr>
+            <td>Width</td>
+            <td class="width-BlueBox"></td>
+            <td class="width-GreenCircle"></td>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td class="height-BlueBox"></td>
+            <td class="height-GreenCircle"></td>
+          </tr>
+  </table>
+
+
+    <div id="BlueBox">
+        <p>Blue Box</p>
+        <p>Drag me</p>
+    </div>
+
+    <div id="GreenCircle">
+        <p>Green Circle</p>
+        <p>Drag me</p>
+    </div>
+
+    <div class="footnote">
+        <ul>
+          <li>Do take note that circular elements are boxed boundary</li>
+          <li>This example only works with ponting device present</li>
+          <li><a class="weblinks" href="https://bobbyhadz.com/blog/javascript-check-if-two-elements-overlap" target="_blank">Reference</a></li>
+          <li>visit <a class="weblinks" href="https://github.com/zulfidly" target="_blank">GitHub</a> </li>
+        </ul>
+    </div>
+
+</body>
+</html>
