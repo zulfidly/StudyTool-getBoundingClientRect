@@ -4,6 +4,7 @@
     -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
     scrollbar-width: none;  /* Hide scrollbar for Firefox */
     box-sizing: border-box;
+    user-select: none;
 }
 body::-webkit-scrollbar {
     display: none;
